@@ -1,0 +1,5 @@
+"movw $1, %dx\n"
+"cmpw %ax, %bx\n"
+"je lb1\n"
+"movw $0, %dx\n"
+"lb1:\n"

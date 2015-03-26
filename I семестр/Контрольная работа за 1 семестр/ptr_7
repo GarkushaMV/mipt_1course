@@ -1,0 +1,4 @@
+p = (char * *)malloc(6 * sizeof(char *));
+int counter;
+for (counter = 0; counter < 6; counter++)
+	p[i] = b[i];

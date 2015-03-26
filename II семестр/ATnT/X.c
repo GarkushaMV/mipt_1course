@@ -1,0 +1,7 @@
+"xor %edx, %edx\n"
+"xor %ebx, %ebx\n"
+"lb1:\n"
+"inc %ebx\n"
+"div %ebx\n"
+"cmp $1, %eax\n"
+"jne lb1\n"
